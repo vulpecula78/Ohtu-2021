@@ -10,6 +10,7 @@ def main():
     joukko.lisaa(3)
     joukko.lisaa(2)
     joukko.lisaa(7)
+    joukko.poista(7)
 
     print(joukko.to_int_list())
 
