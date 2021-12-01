@@ -1,3 +1,4 @@
+#Muokkausta tiedostoon
 from kirjanpito import kirjanpito as default_kirjanpito
 
 
