@@ -17,7 +17,7 @@ def main():
     for player in stats.matches(matcher):
         print(player)
 
-    #matcher = All()
+    matcher = All()
     
     print("-----------")
     matcher = Or(
@@ -70,7 +70,7 @@ def main():
     )
 
     #matcher = query.oneOf(m1, m2).build()
-
+    matcher = All()
     
     for player in stats.matches(matcher):
         print(player)
